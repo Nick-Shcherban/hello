@@ -1,13 +1,17 @@
-.business {
+.basic, .business, .webshop {
+    position: relative;
     width: 380px;
     height: 770px;
     background-color: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466); 
+}
+.basic {
+    margin: 115px 8px 115px 132px;  
+}
+.business {
     margin: 115px 8px 115px 0px;
 }
 .webshop {
-    width: 380px;
-    height: 770px;
-    background-color: #334247;
     margin: 115px 132px 115px 0px;
 }
 body {
@@ -19,67 +23,73 @@ body {
     position: relative;
     font-family: Montserrat;
 }
-.basic {
-    position: relative;
-    width: 380px;
-    height: 770px;
-    background-color: #334247;
-    margin: 115px 8px 115px 132px;
-    
-}
+
 .price-card_title {
-    width: 100px;
-    height: 64px;
-    position: relative;
-    top: 33px;
-    left: 140px;
-    right: 140px;
-    bottom: 673px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
     color: #FFFFFF;
 }
-h1  {
-    margin: 0px;
+.title1 {
+    font-size: 25px;
     font-weight: 700;
 }
-h3 {
-    margin: 0px;
-    font-weight: 300;   
+.title2 {
+    font-size: 20px;
+    font-weight: 300;
 }
-.rectangle {
-    position: absolute;
+.rectangle_basic, .rectangle_business, .rectangle_webshop {
+    display: flex;
     width: 380px;
     height: 105px;
+}
+.rectangle_basic, .button_basic {
     background-color: #5BB189;
-    top: 130px; /* по фигме отступ от price-card_title 33px. Почему rectangle отступает от средины price-card_title?*/
+}
+.rectangle_business, .button_business {
+    background-color: #3A6BA5;
+}
+.rectangle_webshop, .button_webshop {
+    background-color: #EC632A;
 }
 .price-card_price {
-    text-align: center;
-    max-height: 105px;
-    max-width: 380px;
-    margin: 19px 110px 19px 110px;
+    display: flex;
+    align-items: center;
+    margin: auto;
     font-size: 55px;
     color: #FFFFFF;
     font-weight: 700;
 }
-.price-card_description {
-    position: absolute;
-    width: 327.49px;
-    height: 36px;
-    top: 275px;
-    left: 26px;
-    right: 26.51px;
+.price-card_description { 
+    display: flex;
+    height: 116px;
+    justify-content: center;
+    align-items: center;
+}    
+
+.price-card_description > span {
     color: #FFFFFF;
     font-size: 15px;
-    text-align: center;
     font-weight: 300;
+    width: 327.49px;
+    text-align: center;
 }
+
+
 .price-card_options-list {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
     width: 380px;
     height: 300px;
-    left: 0px;
     top: 351px;
+    padding: 0;   
+    list-style: none;
+}
+img {
+    margin-left: 22px;
+    margin-right: 22px;
 }
 .list-item {
     position: relative;
@@ -89,29 +99,27 @@ h3 {
     font-weight: 300;
     font-size: 15px;
     line-height: 50px;
-    
 }
 .dark {
-    background-color: #2A3438;
+    background-color: #2A3438
 }
-.button {
-    position: relative;
+.button_basic, .button_business, .button_webshop {
+    text-align: center;
+    margin: 39px 113.37px 40px 112px;
     width: 154.63px;
     height: 40px;
     border-radius: 20px;
-    background-color: #5BB189;
-    top: 625px;
-    left: 112px;
-    right: 113.37px;
-    bottom: 40px;
-    text-align: center;
-    line-height: 40px;
     color: #FFFFFF;
-}
-.button:hover {
-    border: 1px solid black;
-    color: #5BB189;
-    background-color: #FFFFFF;
-    cursor: pointer;
-}
+    line-height: 40px;
+}      
+
+
+
+
+
+
+
+
+
+
 
