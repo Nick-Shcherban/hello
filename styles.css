@@ -1,0 +1,117 @@
+.business {
+    width: 380px;
+    height: 770px;
+    background-color: #334247;
+    margin: 115px 8px 115px 0px;
+}
+.webshop {
+    width: 380px;
+    height: 770px;
+    background-color: #334247;
+    margin: 115px 132px 115px 0px;
+}
+body {
+    box-sizing: border-box;
+    display: flex;
+    background-color: #141B1C;
+    width: 1440px;
+    height: 1000px;
+    position: relative;
+    font-family: Montserrat;
+}
+.basic {
+    position: relative;
+    width: 380px;
+    height: 770px;
+    background-color: #334247;
+    margin: 115px 8px 115px 132px;
+    
+}
+.price-card_title {
+    width: 100px;
+    height: 64px;
+    position: relative;
+    top: 33px;
+    left: 140px;
+    right: 140px;
+    bottom: 673px;
+    text-align: center;
+    color: #FFFFFF;
+}
+h1  {
+    margin: 0px;
+    font-weight: 700;
+}
+h3 {
+    margin: 0px;
+    font-weight: 300;   
+}
+.rectangle {
+    position: absolute;
+    width: 380px;
+    height: 105px;
+    background-color: #5BB189;
+    top: 130px; /* по фигме отступ от price-card_title 33px. Почему rectangle отступает от средины price-card_title?*/
+}
+.price-card_price {
+    text-align: center;
+    max-height: 105px;
+    max-width: 380px;
+    margin: 19px 110px 19px 110px;
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.price-card_description {
+    position: absolute;
+    width: 327.49px;
+    height: 36px;
+    top: 275px;
+    left: 26px;
+    right: 26.51px;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+}
+.price-card_options-list {
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    left: 0px;
+    top: 351px;
+}
+.list-item {
+    position: relative;
+    height: 50px;
+    opacity: 50%;   
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 50px;
+    
+}
+.dark {
+    background-color: #2A3438;
+}
+.button {
+    position: relative;
+    width: 154.63px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #5BB189;
+    top: 625px;
+    left: 112px;
+    right: 113.37px;
+    bottom: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.button:hover {
+    border: 1px solid black;
+    color: #5BB189;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
