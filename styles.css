@@ -4,6 +4,7 @@
     height: 770px;
     background-color: #334247;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466); 
+    overflow: hidden;
 }
 .basic {
     margin: 115px 8px 115px 132px;  
@@ -112,6 +113,25 @@ img {
     color: #FFFFFF;
     line-height: 40px;
 }      
+.button_basic:hover, .button_business:hover, .button_webshop:hover {
+    cursor: pointer;
+    border: 2px solid #141B1C;
+}
+.popular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 147px;
+    background-color: #DC3F45;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 14px;
+    position: absolute;
+    left: 264px;
+    top: 30px; 
+    transform: rotateZ(45deg);
+}
 
 
 
