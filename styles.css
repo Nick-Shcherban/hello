@@ -7,6 +7,7 @@
     overflow: hidden;
 }
 .basic {
+    
     margin: 115px 8px 115px 132px;  
 }
 .business {
@@ -22,7 +23,7 @@ body {
     width: 1440px;
     height: 1000px;
     position: relative;
-    font-family: Montserrat;
+    font-family: 'Montserrat'; 
 }
 
 .price-card_title {
@@ -105,6 +106,7 @@ img {
     background-color: #2A3438
 }
 .button_basic, .button_business, .button_webshop {
+    display: block;
     text-align: center;
     margin: 39px 113.37px 40px 112px;
     width: 154.63px;
@@ -112,11 +114,12 @@ img {
     border-radius: 20px;
     color: #FFFFFF;
     line-height: 40px;
+    text-decoration: none;
 }      
-.button_basic:hover, .button_business:hover, .button_webshop:hover {
+/* .button_basic:hover, .button_business:hover, .button_webshop:hover {
     cursor: pointer;
     border: 2px solid #141B1C;
-}
+} */
 .popular {
     display: flex;
     align-items: center;
@@ -130,16 +133,7 @@ img {
     position: absolute;
     left: 264px;
     top: 30px; 
-    transform: rotateZ(45deg);
+    transform: rotate(45deg);
+    text-transform: uppercase;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
