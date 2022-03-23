@@ -89,7 +89,7 @@ body {
     padding: 0;   
     list-style: none;
 }
-img {
+.tick {
     margin-left: 22px;
     margin-right: 22px;
 }
