@@ -1,20 +1,17 @@
-.basic, .business, .webshop {
+.basic {
     position: relative;
+ 
+    top: 115px;
+    left: 114px;
+    bottom: 115px;
+    right: 132px; 
+    margin-left: 18px;
     width: 380px;
     height: 770px;
     background-color: #334247;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466); 
     overflow: hidden;
-}
-.basic {
     
-    margin: 115px 8px 115px 132px;  
-}
-.business {
-    margin: 115px 8px 115px 0px;
-}
-.webshop {
-    margin: 115px 132px 115px 0px;
 }
 body {
     box-sizing: border-box;
@@ -34,11 +31,11 @@ body {
     height: 130px;
     color: #FFFFFF;
 }
-.title1 {
+.title {
     font-size: 25px;
     font-weight: 700;
 }
-.title2 {
+.subtitle {
     font-size: 20px;
     font-weight: 300;
 }
@@ -47,13 +44,13 @@ body {
     width: 380px;
     height: 105px;
 }
-.rectangle_basic, .button_basic {
+.rectangle_basic, .button-green {
     background-color: #5BB189;
 }
-.rectangle_business, .button_business {
+.rectangle_business, .button-blue {
     background-color: #3A6BA5;
 }
-.rectangle_webshop, .button_webshop {
+.rectangle_webshop, .button-orange {
     background-color: #EC632A;
 }
 .price-card_price {
@@ -71,7 +68,7 @@ body {
     align-items: center;
 }    
 
-.price-card_description > span {
+.description {
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 300;
@@ -105,7 +102,7 @@ body {
 .dark {
     background-color: #2A3438
 }
-.button_basic, .button_business, .button_webshop {
+.order-button {
     display: block;
     text-align: center;
     margin: 39px 113.37px 40px 112px;
