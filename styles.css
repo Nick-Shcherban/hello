@@ -1,0 +1,136 @@
+.basic {
+    position: relative;
+ 
+    top: 115px;
+    left: 114px;
+    bottom: 115px;
+    right: 132px; 
+    margin-left: 18px;
+    width: 380px;
+    height: 770px;
+    background-color: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466); 
+    overflow: hidden;
+    
+}
+body {
+    box-sizing: border-box;
+    display: flex;
+    background-color: #141B1C;
+    width: 1440px;
+    height: 1000px;
+    position: relative;
+    font-family: 'Montserrat'; 
+}
+
+.price-card_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    color: #FFFFFF;
+}
+.title {
+    font-size: 25px;
+    font-weight: 700;
+}
+.subtitle {
+    font-size: 20px;
+    font-weight: 300;
+}
+.rectangle_basic, .rectangle_business, .rectangle_webshop {
+    display: flex;
+    width: 380px;
+    height: 105px;
+}
+.rectangle_basic, .button-green {
+    background-color: #5BB189;
+}
+.rectangle_business, .button-blue {
+    background-color: #3A6BA5;
+}
+.rectangle_webshop, .button-orange {
+    background-color: #EC632A;
+}
+.price-card_price {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 55px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.price-card_description { 
+    display: flex;
+    height: 116px;
+    justify-content: center;
+    align-items: center;
+}    
+
+.description {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+    width: 327.49px;
+    text-align: center;
+}
+
+
+.price-card_options-list {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 300px;
+    top: 351px;
+    padding: 0;   
+    list-style: none;
+}
+.tick {
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.list-item {
+    position: relative;
+    height: 50px;
+    opacity: 50%;   
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 50px;
+}
+.dark {
+    background-color: #2A3438
+}
+.order-button {
+    display: block;
+    text-align: center;
+    margin: 39px 113.37px 40px 112px;
+    width: 154.63px;
+    height: 40px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-decoration: none;
+}      
+/* .button_basic:hover, .button_business:hover, .button_webshop:hover {
+    cursor: pointer;
+    border: 2px solid #141B1C;
+} */
+.popular {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 147px;
+    background-color: #DC3F45;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 14px;
+    position: absolute;
+    left: 264px;
+    top: 30px; 
+    transform: rotate(45deg);
+    text-transform: uppercase;
+    
+}
